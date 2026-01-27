@@ -6,6 +6,19 @@
     z-index: 10;
 }
 
+.contact-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.contact-header .section-subtitle {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
 .contact-container {
     max-width: 1100px;
     margin: 0 auto;
