@@ -1,0 +1,6 @@
+# Robots.txt for Mayank Gupta Portfolio
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://mayank2295.github.io/Personal_Portfolio/sitemap.xml

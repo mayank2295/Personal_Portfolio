@@ -1,0 +1,21 @@
+{
+  "name": "Mayank Gupta | Portfolio",
+  "short_name": "MG Portfolio",
+  "description": "Portfolio of Mayank Gupta - Software Engineer & Data Analyst",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0f",
+  "theme_color": "#a855f7",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "assets/icons/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["portfolio", "personal", "developer"],
+  "lang": "en",
+  "dir": "ltr"
+}

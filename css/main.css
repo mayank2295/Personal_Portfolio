@@ -1,0 +1,26 @@
+/* ===== MAIN STYLESHEET ===== */
+/* Author: Mayank Gupta */
+/* Imports all CSS modules */
+
+/* Base Styles */
+@import url('base.css');
+
+/* Layout */
+@import url('navigation.css');
+@import url('footer.css');
+
+/* Components */
+@import url('components.css');
+
+/* Sections (Navbar items) */
+@import url('sections/home.css');
+@import url('sections/skills.css');
+@import url('sections/experience.css');
+@import url('sections/projects.css');
+@import url('sections/achievements.css');
+@import url('sections/education.css');
+@import url('sections/contact.css');
+
+/* Animations & Responsive */
+@import url('animations.css');
+@import url('responsive.css');
