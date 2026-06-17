@@ -64,13 +64,15 @@
     const navLinks = document.getElementById('navLinks');
     const scrollBar = document.getElementById('scrollBar');
 
-    function closeMenu() {
+    function closeMenu(restoreFocus) {
         if (!navLinks) return;
+        const wasOpen = navLinks.classList.contains('open');
         navLinks.classList.remove('open');
         if (menuBtn) {
             menuBtn.classList.remove('open');
             menuBtn.setAttribute('aria-expanded', 'false');
             menuBtn.setAttribute('aria-label', 'Open menu');
+            if (restoreFocus && wasOpen) menuBtn.focus();
         }
     }
     if (menuBtn) {
@@ -79,10 +81,21 @@
             menuBtn.classList.toggle('open', open);
             menuBtn.setAttribute('aria-expanded', String(open));
             menuBtn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+            // Move focus into the menu on open; back to the button on close.
+            if (open) { const a = navLinks.querySelector('a'); if (a) a.focus(); }
+            else menuBtn.focus();
         });
     }
-    // Close the mobile menu on Escape
-    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeMenu(); });
+    // Escape closes the menu; Tab is trapped while it's open (mobile overlay).
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') { closeMenu(true); return; }
+        if (e.key === 'Tab' && navLinks && navLinks.classList.contains('open')) {
+            const items = [menuBtn].concat(Array.from(navLinks.querySelectorAll('a')));
+            const first = items[0], last = items[items.length - 1];
+            if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+            else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+        }
+    });
 
     function onScroll() {
         const y = window.scrollY || document.documentElement.scrollTop;
