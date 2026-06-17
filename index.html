@@ -3,584 +3,446 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Mayank Gupta - Computer Science Student | Software Engineer & Data Analyst. View my projects, skills, and experience.">
-    <meta name="keywords" content="Mayank Gupta, Software Engineer, Data Analyst, Portfolio, Web Developer, Java, Python, React">
+    <meta name="description" content="Mayank Gupta — Software Engineer & Data Analyst. Computer Science student building scalable applications, ML systems, and data-driven products.">
+    <meta name="keywords" content="Mayank Gupta, Software Engineer, Data Analyst, Portfolio, Java, Python, React, Machine Learning">
     <meta name="author" content="Mayank Gupta">
     <meta name="robots" content="index, follow">
-    <meta name="theme-color" content="#a855f7">
-    
-    <!-- Preconnect to external resources for faster loading -->
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <meta name="theme-color" content="#0b0b0d">
+
+    <!-- Preconnect -->
     <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
-    <!-- Preload critical fonts -->
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"></noscript>
-    
-    <!-- Favicon -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+
+    <!-- Fonts: Fraunces (editorial display) · Inter (UI) · JetBrains Mono (labels) -->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+
+    <!-- Favicon & PWA -->
     <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
     <link rel="apple-touch-icon" href="assets/icons/favicon.svg">
-    
-    <!-- PWA Manifest -->
     <link rel="manifest" href="manifest.json">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="MG Portfolio">
-    
-    <!-- Open Graph / Facebook -->
+    <meta name="apple-mobile-web-app-title" content="Mayank Gupta">
+
+    <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://mayank2295.github.io/Personal_Portfolio/">
-    <meta property="og:title" content="Mayank Gupta | Software Engineer & Data Analyst">
-    <meta property="og:description" content="Portfolio of Mayank Gupta - Software Engineer & Data Analyst. Check out my projects, skills, and experience.">
-    <meta property="og:image" content="https://avatars.githubusercontent.com/u/mayank2295">
-
-    <!-- Twitter -->
+    <meta property="og:title" content="Mayank Gupta — Software Engineer & Data Analyst">
+    <meta property="og:description" content="Computer Science student building scalable applications, ML systems, and data-driven products.">
+    <meta property="og:image" content="https://mayank2295.github.io/Personal_Portfolio/assets/og.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://mayank2295.github.io/Personal_Portfolio/">
-    <meta property="twitter:title" content="Mayank Gupta | Software Engineer & Data Analyst">
-    <meta property="twitter:description" content="Portfolio of Mayank Gupta - Software Engineer & Data Analyst.">
-    <meta property="twitter:image" content="https://avatars.githubusercontent.com/u/mayank2295">
+    <meta property="twitter:title" content="Mayank Gupta — Software Engineer & Data Analyst">
+    <meta property="twitter:description" content="Computer Science student building scalable applications, ML systems, and data-driven products.">
+    <meta property="twitter:image" content="https://mayank2295.github.io/Personal_Portfolio/assets/og.png">
 
-    <title>Mayank Gupta | Software Engineer & Data Analyst</title>
-    
-    <!-- JSON-LD Structured Data for SEO -->
+    <title>Mayank Gupta — Software Engineer & Data Analyst</title>
+
+    <!-- Structured data -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "Person",
         "name": "Mayank Gupta",
         "url": "https://mayank2295.github.io/Personal_Portfolio/",
-        "image": "https://avatars.githubusercontent.com/u/mayank2295",
+        "image": "https://mayank2295.github.io/Personal_Portfolio/assets/og.png",
         "jobTitle": ["Software Engineer", "Data Analyst"],
-        "description": "Computer Science Student with expertise in Software Engineering and Data Analysis",
+        "description": "Computer Science student with expertise in Software Engineering and Data Analysis",
         "email": "mayankgupta23081@gmail.com",
         "telephone": "+919034881439",
-        "sameAs": [
-            "https://linkedin.com/in/mayank-g22",
-            "https://github.com/mayank2295"
-        ],
-        "knowsAbout": ["Python", "Java", "React", "SQL", "Data Analysis", "Machine Learning", "Spring Boot"],
-        "alumniOf": {
-            "@type": "EducationalOrganization",
-            "name": "University"
-        }
+        "sameAs": ["https://linkedin.com/in/mayank-g22", "https://github.com/mayank2295"],
+        "knowsAbout": ["Python", "Java", "React", "SQL", "Data Analysis", "Machine Learning", "Spring Boot"]
     }
     </script>
-    
-    <!-- External CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
     <link rel="stylesheet" href="css/main.css">
-    
+
     <!-- Vercel Web Analytics -->
-    <script>
-      window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
-    </script>
+    <script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
     <script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
-    <!-- Skip Navigation for Accessibility -->
-    <a href="#home" class="skip-nav">Skip to main content</a>
+    <a href="#main" class="skip-nav">Skip to content</a>
 
-    <!-- Page Loader -->
-    <div class="page-loader" id="pageLoader">
-        <div class="loader-content">
-            <div class="loader-spinner"></div>
-            <div class="loader-text">Loading...</div>
+    <!-- Animated background light system -->
+    <div class="bg-fx" aria-hidden="true">
+        <span class="orb orb-1"></span>
+        <span class="orb orb-2"></span>
+        <span class="orb orb-3"></span>
+    </div>
+
+    <!-- Interactive cursor torch -->
+    <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
+    <!-- Film grain overlay -->
+    <div class="grain" aria-hidden="true"></div>
+
+    <!-- Page loader -->
+    <div class="loader" id="loader" aria-hidden="true">
+        <div class="loader-inner">
+            <span class="loader-name">Mayank Gupta</span>
+            <span class="loader-count"><span id="loaderCount">0</span><span class="loader-pct">%</span></span>
         </div>
+        <div class="loader-bar"><span id="loaderBar"></span></div>
     </div>
 
-    <!-- Custom Cursor -->
-    <div class="cursor"></div>
-    <div class="cursor-follower"></div>
+    <!-- Custom cursor: precise dot + elastic trailing ring -->
+    <div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+    <div class="cursor-ring" id="cursorRing" aria-hidden="true"><span class="cursor-label" id="cursorLabel"></span></div>
 
-    <!-- Back to Top Button -->
-    <button class="back-to-top" id="backToTop" title="Back to Top" aria-label="Scroll back to top">
-        <i class="fas fa-arrow-up" aria-hidden="true"></i>
-    </button>
-
-    <!-- Copy Toast Notification -->
-    <div class="copy-toast" id="copyToast">
-        <i class="fas fa-check-circle"></i>
-        <span>Email copied to clipboard!</span>
-    </div>
-
-    <!-- CV Download Button -->
-    <a href="assets/documents/Mayank_gupta_cv.pdf" download="Mayank_Gupta_CV.pdf" class="cv-download-btn" onclick="downloadCV(event)">
-        <i class="fas fa-download"></i>
-        <span>Download CV</span>
-    </a>
-
-    <!-- Light Mode Animated Background -->
-    <div class="light-bg-container">
-        <div class="blob blob-1"></div>
-        <div class="blob blob-2"></div>
-        <div class="blob blob-3"></div>
-        <div class="grid-overlay"></div>
-    </div>
-
-    <!-- Particle Background -->
-    <div id="particles-js" style="position: fixed; width: 100%; height: 100%; top: 0; left: 0; z-index: -1;"></div>
-
-    <!-- Floating Geometric Shapes -->
-    <div class="floating-shapes">
-        <div class="shape circle"></div>
-        <div class="shape"></div>
-        <div class="shape circle"></div>
-        <div class="shape triangle"></div>
-        <div class="shape circle"></div>
-        <div class="shape"></div>
-    </div>
+    <!-- Scroll progress -->
+    <div class="scroll-progress"><span id="scrollBar"></span></div>
 
     <!-- Navigation -->
-    <div class="scroll-progress-container">
-        <div class="scroll-progress-bar"></div>
-    </div>
-    <nav>
-        <a href="#home" class="nav-brand"></a>
-        <div class="hamburger" onclick="toggleMenu()">
-            <span></span>
-            <span></span>
-            <span></span>
+    <header class="nav" id="nav">
+        <a href="#home" class="nav-mark" data-cursor>
+            <span>MG</span>
+        </a>
+        <nav class="nav-links" id="navLinks" aria-label="Primary">
+            <a href="#about" data-cursor>About</a>
+            <a href="#experience" data-cursor>Experience</a>
+            <a href="#work" data-cursor>Work</a>
+            <a href="#skills" data-cursor>Skills</a>
+            <a href="#contact" data-cursor>Contact</a>
+        </nav>
+        <div class="nav-right">
+            <button class="theme-btn" id="themeBtn" aria-label="Toggle colour theme" data-cursor>
+                <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false">
+                    <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.6"/>
+                    <path d="M12 3a9 9 0 0 0 0 18Z" fill="currentColor"/>
+                </svg>
+            </button>
+            <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+                <span></span><span></span>
+            </button>
         </div>
-        <ul class="nav-links">
-            <li><a href="#home" class="nav-link active" onclick="toggleMenu()">Home</a></li>
-            <li><a href="#skills" class="nav-link" onclick="toggleMenu()">Skills</a></li>
-            <li><a href="#experience" class="nav-link" onclick="toggleMenu()">Experience</a></li>
-            <li><a href="#projects" class="nav-link" onclick="toggleMenu()">Projects</a></li>
-            <li><a href="#achievements" class="nav-link" onclick="toggleMenu()">Achievements</a></li>
-            <li><a href="#education" class="nav-link" onclick="toggleMenu()">Education</a></li>
-            <li><a href="#contact" class="nav-link" onclick="toggleMenu()">Contact</a></li>
-            <li>
-                <div class="theme-toggle" onclick="toggleTheme()">
-                    <div class="theme-toggle-ball"></div>
-                </div>
-            </li>
-        </ul>
-    </nav>
+    </header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <div class="hero-text">
-                <a href="https://linkedin.com/in/mayank-g22" target="_blank" rel="noopener noreferrer" class="badge" style="cursor: pointer; text-decoration: none;">🚀 Available for Opportunities</a>
-                <h1 class="glitch" data-text="Mayank Gupta">Mayank Gupta</h1>
-                <div class="typing-text">
-                    <span id="typedText"></span>
-                    <span class="cursor-blink"></span>
-                </div>
-                <p class="bio"><span class="greeting-text" id="greeting">Hello!</span> I'm a passionate Computer Science student with expertise in Software Engineering and Data Analysis. Skilled in building scalable applications, analyzing complex datasets, and integrating AI solutions. Proficient in modern development frameworks and DevOps tools to create impactful software solutions.</p>
-                
-                <div class="collaboration-badge">
-                    🚀 Open to Collaborate on AI & DevOps Projects
-                </div>
-
-                <div class="cta-buttons">
-                    <a href="#projects" class="btn btn-primary"><span>View My Work</span></a>
-                    <a href="#contact" class="btn btn-secondary"><span>Get In Touch</span></a>
-                </div>
-
-                <div class="social-links">
-                    <a href="mailto:mayankgupta23081@gmail.com" class="social-link" aria-label="Email me"><i class="fas fa-envelope" aria-hidden="true"></i></a>
-                    <a href="https://linkedin.com/in/mayank-g22" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn Profile"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
-                    <a href="https://github.com/mayank2295" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub Profile"><i class="fab fa-github" aria-hidden="true"></i></a>
-                    <a href="tel:+919034881439" class="social-link" aria-label="Call me"><i class="fas fa-phone-alt" aria-hidden="true"></i></a>
-                </div>
+    <main id="main">
+        <!-- ===== HERO ===== -->
+        <section class="hero" id="home">
+            <div class="hero-top">
+                <span class="mono" data-reveal>Portfolio — 2026</span>
+                <span class="mono hero-loc" data-reveal>Panipat, Haryana · <span class="dot-avail"></span> Available for work</span>
             </div>
 
-            <div class="hero-visual">
-                <div class="profile-container">
-                    <img loading="lazy" src="assets/images/myimage.jpeg" alt="Mayank Gupta" class="profile-image">
-                    <div class="floating-card">
-                        <div class="card-title">Projects Completed</div>
-                        <div class="card-value">15+</div>
+            <div class="hero-main">
+                <h1 class="hero-title">
+                    <span class="line"><span class="word">Software</span></span>
+                    <span class="line"><span class="word">Engineer</span> <span class="word amp">&amp;</span></span>
+                    <span class="line"><span class="word italic">Data</span></span>
+                    <span class="line"><span class="word italic">Analyst</span></span>
+                </h1>
+
+                <figure class="hero-card" data-reveal>
+                    <div class="hero-card-head">
+                        <span class="mono">Profile</span>
+                        <span class="mono">MG / 2026</span>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="reveal">
-        <h2 class="section-title">Technical Skills</h2>
-        <div class="skills-container">
-            <div class="skill-card">
-                <h3><span class="skill-icon"><i class="fas fa-code"></i></span> Languages</h3>
-                <div class="skill-items">
-                    <span class="skill-item" data-level="Advanced">Python</span>
-                    <span class="skill-item" data-level="Advanced">Java</span>
-                    <span class="skill-item" data-level="Intermediate">C++</span>
-                    <span class="skill-item" data-level="Intermediate">C</span>
-                    <span class="skill-item" data-level="Advanced">SQL</span>
-                    <span class="skill-item" data-level="Intermediate">JavaScript</span>
-                    <span class="skill-item" data-level="Advanced">HTML</span>
-                    <span class="skill-item" data-level="Advanced">CSS</span>
-                </div>
+                    <div class="hero-card-mark" aria-hidden="true">MG</div>
+                    <dl class="hero-card-meta">
+                        <div><dt class="mono">Role</dt><dd>Software Engineer</dd></div>
+                        <div><dt class="mono">Focus</dt><dd>Backend · Data · ML</dd></div>
+                        <div><dt class="mono">Based</dt><dd>Panipat, India</dd></div>
+                        <div><dt class="mono">Status</dt><dd class="hero-card-status"><span class="dot-avail"></span> Available for work</dd></div>
+                    </dl>
+                </figure>
             </div>
 
-            <div class="skill-card">
-                <h3><span class="skill-icon"><i class="fas fa-layer-group"></i></span> Frameworks</h3>
-                <div class="skill-items">
-                    <span class="skill-item" data-level="Intermediate">Spring Boot</span>
-                    <span class="skill-item" data-level="Intermediate">React</span>
-                    <span class="skill-item" data-level="Beginner">Node.js</span>
-                </div>
-            </div>
-
-            <div class="skill-card">
-                <h3><span class="skill-icon"><i class="fas fa-database"></i></span> Databases</h3>
-                <div class="skill-items">
-                    <span class="skill-item" data-level="Advanced">MySQL</span>
-                    <span class="skill-item" data-level="Intermediate">PostgreSQL</span>
-                </div>
-            </div>
-
-            <div class="skill-card">
-                <h3><span class="skill-icon"><i class="fas fa-chart-line"></i></span> Data Science</h3>
-                <div class="skill-items">
-                    <span class="skill-item" data-level="Advanced">Pandas</span>
-                    <span class="skill-item" data-level="Advanced">NumPy</span>
-                    <span class="skill-item" data-level="Intermediate">Matplotlib</span>
-                    <span class="skill-item" data-level="Intermediate">Seaborn</span>
-                    <span class="skill-item" data-level="Intermediate">Tableau</span>
-                    <span class="skill-item" data-level="Intermediate">Scikit-learn</span>
-                    <span class="skill-item" data-level="Advanced">Excel</span>
-                </div>
-            </div>
-
-            <div class="skill-card">
-                <h3><span class="skill-icon"><i class="fas fa-tools"></i></span> Tools & DevOps</h3>
-                <div class="skill-items">
-                    <span class="skill-item" data-level="Advanced">Git</span>
-                    <span class="skill-item" data-level="Advanced">GitHub</span>
-                    <span class="skill-item" data-level="Intermediate">Docker</span>
-                    <span class="skill-item" data-level="Advanced">VS Code</span>
-                    <span class="skill-item" data-level="Advanced">IntelliJ IDEA</span>
-                    <span class="skill-item" data-level="Intermediate">Maven</span>
-                </div>
-            </div>
-
-            <div class="skill-card">
-                <h3><span class="skill-icon"><i class="fas fa-brain"></i></span> Core Competencies</h3>
-                <div class="skill-items">
-                    <span class="skill-item" data-level="Advanced">DSA</span>
-                    <span class="skill-item" data-level="Intermediate">JDBC</span>
-                    <span class="skill-item" data-level="Intermediate">AI Integration</span>
-                    <span class="skill-item" data-level="Intermediate">DevOps</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Experience Section -->
-    <section id="experience" class="reveal">
-        <h2 class="section-title">Experience & Training</h2>
-        <div class="experience-container">
-            <div class="experience-card">
-                <div class="experience-header">
-                    <div>
-                        <h3 class="experience-title">DSA with Java - Intensive Training</h3>
-                        <p class="experience-platform">Self-Paced Learning</p>
-                    </div>
-                </div>
-                <div class="experience-stats">
-                    <div class="stat-item">
-                        <div class="stat-number counter" data-target="200">0</div>
-                        <div class="stat-label">Problems Solved</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-number counter" data-target="2">0</div>
-                        <div class="stat-label">Platforms</div>
-                    </div>
-                </div>
-                <p style="color: var(--text-secondary); line-height: 1.8;">
-                    Completed comprehensive Data Structures and Algorithms training focused on Java implementation. 
-                    Solved 200+ algorithmic problems across LeetCode and TakeYouForward platforms, mastering 
-                    arrays, linked lists, trees, graphs, dynamic programming, and advanced problem-solving techniques.
+            <div class="hero-foot">
+                <p class="hero-bio" data-reveal>
+                    I'm <strong>Mayank Gupta</strong>, a Computer Science student who builds
+                    scalable applications, trains machine-learning models, and turns
+                    messy data into decisions. I care about craft, performance, and the
+                    details most people skip.
                 </p>
+                <div class="hero-actions" data-reveal>
+                    <a href="#work" class="link-arrow" data-cursor>Selected work <span>&darr;</span></a>
+                    <a href="assets/documents/Mayank_gupta_cv.pdf" download="Mayank_Gupta_CV.pdf" class="link-arrow" data-cursor>Download CV <span>&rarr;</span></a>
+                </div>
+            </div>
+
+            <div class="hero-scroll mono">
+                <span>Scroll</span>
+                <span class="hero-scroll-line"></span>
+            </div>
+        </section>
+
+        <!-- ===== MARQUEE ===== -->
+        <div class="marquee" aria-hidden="true">
+            <div class="marquee-track" id="marquee">
+                <span>Python</span><span class="sep">/</span><span>Java</span><span class="sep">/</span><span>Machine Learning</span><span class="sep">/</span><span>React</span><span class="sep">/</span><span>Spring Boot</span><span class="sep">/</span><span>SQL</span><span class="sep">/</span><span>Data Analysis</span><span class="sep">/</span><span>DSA</span><span class="sep">/</span>
             </div>
         </div>
-    </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="reveal">
-        <h2 class="section-title">Featured Projects</h2>
-        <div class="projects-grid">
-            <div class="project-card gradient-border glow-spread hover-lift stagger-item">
-                <div class="project-thumbnail">
-                    <img loading="lazy" src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=400&fit=crop" alt="CareerFlow AI Career Advisor" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                    <i class="fas fa-briefcase project-icon" style="display: none;"></i>
+        <!-- ===== ABOUT / STATEMENT ===== -->
+        <section class="about" id="about" aria-labelledby="about-h">
+            <h2 id="about-h" class="sr-only">About</h2>
+            <span class="section-index mono" data-reveal>(01) — About</span>
+            <p class="statement" data-reveal-lines>
+                I turn ambiguous problems into <em>shipped</em> products — from an
+                AI career platform that reached the <em>Top 100</em> at Smart India
+                Hackathon, to ML models predicting mental-health risk at
+                <em>80%+ accuracy</em>. Two hundred-plus algorithms deep, and still
+                obsessed with the next clean abstraction.
+            </p>
+            <div class="about-grid">
+                <div class="about-stat" data-reveal>
+                    <span class="stat-num"><span data-count="200">0</span>+</span>
+                    <span class="stat-label mono">DSA problems solved</span>
                 </div>
-                <div class="project-body">
-                    <h3>CareerFlow - AI Career Advisor</h3>
-                    <p>Smart India Hackathon project tackling unemployment through AI-powered career guidance. Features professional networking, mentor-mentee matching, resume builder & analyzer, job listings, courses, and community forums. Connects job seekers with industry experts to accelerate career growth and skill development.</p>
-                    <div class="tech-stack">
-                        <span class="tech-tag">React</span>
-                        <span class="tech-tag">JavaScript</span>
-                        <span class="tech-tag">AI/ML</span>
-                        <span class="tech-tag">CSS</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://hello-world-champs-frontend.vercel.app/dashboard" target="_blank" rel="noopener noreferrer" class="project-link">Live Demo →</a>
-                        <a href="https://github.com/mayank2295/Hello-World-Champs-Frontend" target="_blank" rel="noopener noreferrer" class="project-link">View Code →</a>
-                    </div>
+                <div class="about-stat" data-reveal>
+                    <span class="stat-num"><span data-count="30">0</span>+</span>
+                    <span class="stat-label mono">Public repositories</span>
                 </div>
-            </div>
-
-            <div class="project-card gradient-border glow-spread hover-lift stagger-item">
-                <div class="project-thumbnail">
-                    <img loading="lazy" src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?w=600&h=400&fit=crop" alt="Mental Health Analysis" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                    <i class="fas fa-brain project-icon" style="display: none;"></i>
+                <div class="about-stat" data-reveal>
+                    <span class="stat-num"><span data-count="3">0</span></span>
+                    <span class="stat-label mono">Hackathons placed</span>
                 </div>
-                <div class="project-body">
-                    <h3>Mental Health Analysis - Indian Youth</h3>
-                    <p>Machine Learning project analyzing 600+ real-time survey responses from Indian students. Predicts stress levels, identifies mental health risks, and detects high-stress individuals using ML models (Linear Regression, SVM, Random Forest) achieving 80%+ accuracy for early intervention and support.</p>
-                    <div class="tech-stack">
-                        <span class="tech-tag">Python</span>
-                        <span class="tech-tag">Machine Learning</span>
-                        <span class="tech-tag">Pandas</span>
-                        <span class="tech-tag">Scikit-learn</span>
-                        <span class="tech-tag">Jupyter</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/mayank2295/Mental-Health-Analysis-Among-Indian-Youth-Using-Machine-Learning" target="_blank" rel="noopener noreferrer" class="project-link">View Code →</a>
-                    </div>
+                <div class="about-stat" data-reveal>
+                    <span class="stat-num">9.2<span class="stat-small">/10</span></span>
+                    <span class="stat-label mono">Current CGPA</span>
                 </div>
             </div>
+        </section>
 
-            <div class="project-card gradient-border glow-spread hover-lift stagger-item">
-                <div class="project-thumbnail">
-                    <img loading="lazy" src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=600&h=400&fit=crop" alt="Book My Movie" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                    <i class="fas fa-film project-icon" style="display: none;"></i>
-                </div>
-                <div class="project-body">
-                    <h3>Book My Movie</h3>
-                    <p>End-to-end movie ticketing platform featuring dynamic seat selection, secure bookings, and robust transaction management. Built with enterprise-grade Java architecture and SQL optimization.</p>
-                    <div class="tech-stack">
-                        <span class="tech-tag">Java</span>
-                        <span class="tech-tag">JDBC</span>
-                        <span class="tech-tag">SQL</span>
-                        <span class="tech-tag">Maven</span>
+        <!-- ===== EXPERIENCE ===== -->
+        <section class="experience" id="experience">
+            <div class="section-head">
+                <span class="section-index mono" data-reveal>(02) — Experience</span>
+                <h2 class="section-title" data-reveal-lines>Where I've worked</h2>
+            </div>
+            <ul class="exp-list">
+                <li class="exp-row" data-reveal>
+                    <div class="exp-meta">
+                        <span class="exp-year mono"><span class="dot-avail"></span> Mar 2026 — Present</span>
+                        <span class="exp-co mono">Wissen Technology</span>
+                        <span class="exp-client mono">Client · Morgan Stanley</span>
                     </div>
-                    <div class="project-links">
-                        <a href="https://github.com/mayank2295/Book_my_movie" target="_blank" rel="noopener noreferrer" class="project-link">View Code →</a>
+                    <div class="exp-body">
+                        <h3 class="exp-role">Software Engineer Intern</h3>
+                        <!-- METRIC SLOT: replace this line with a concrete result when you have one,
+                             e.g. "Built 12+ REST endpoints" or "Processed 50k+ records / cut runtime 30%". -->
+                        <p class="exp-impact">Shipping backend features that run in a live financial-services platform — production code, not a sandbox.</p>
+                        <p class="exp-desc">
+                            Building <strong>Java</strong> backend services with <strong>Spring Boot</strong>
+                            on a Morgan Stanley engagement, working to production engineering standards in a
+                            large enterprise codebase. Also contributing to <strong>data training</strong>
+                            workflows in <strong>Python</strong> — preparing, processing, and validating datasets.
+                        </p>
+                        <div class="exp-tags mono">Java · Spring Boot · Python · REST</div>
                     </div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- ===== SELECTED WORK ===== -->
+        <section class="work" id="work">
+            <div class="section-head">
+                <span class="section-index mono" data-reveal>(03) — Selected Work</span>
+                <h2 class="section-title" data-reveal-lines>Things I've built</h2>
+            </div>
+
+            <div class="work-list" id="workList">
+                <a class="work-row" href="https://hello-world-champs-frontend.vercel.app/dashboard" target="_blank" rel="noopener noreferrer" data-img="assets/images/projects/careerflow.png" data-cursor="View">
+                    <span class="work-no mono">01</span>
+                    <span class="work-name">CareerFlow</span>
+                    <span class="work-desc">AI career platform — Top 100 of thousands of teams at Smart India Hackathon</span>
+                    <span class="work-tags mono">React · AI/ML</span>
+                    <span class="work-arrow">&rarr;</span>
+                </a>
+                <a class="work-row" href="https://github.com/mayank2295/Mental-Health-Analysis-Among-Indian-Youth-Using-Machine-Learning" target="_blank" rel="noopener noreferrer" data-img="assets/images/projects/mental-health.png" data-cursor="Code">
+                    <span class="work-no mono">02</span>
+                    <span class="work-name">Mental Health Analysis</span>
+                    <span class="work-desc">Predicts youth stress from 600+ survey responses at 80%+ accuracy</span>
+                    <span class="work-tags mono">Python · scikit-learn</span>
+                    <span class="work-arrow">&rarr;</span>
+                </a>
+                <a class="work-row" href="https://github.com/mayank2295/Book_my_movie" target="_blank" rel="noopener noreferrer" data-img="assets/images/projects/book-my-movie.png" data-cursor="Code">
+                    <span class="work-no mono">03</span>
+                    <span class="work-name">Book My Movie</span>
+                    <span class="work-desc">Transactional ticketing with seat locking and safe concurrent bookings</span>
+                    <span class="work-tags mono">Java · JDBC · SQL</span>
+                    <span class="work-arrow">&rarr;</span>
+                </a>
+            </div>
+
+            <!-- Floating preview image that follows cursor over work list -->
+            <div class="work-preview" id="workPreview" aria-hidden="true"><img id="workPreviewImg" alt="" loading="lazy"></div>
+
+            <a href="https://github.com/mayank2295" target="_blank" rel="noopener noreferrer" class="link-arrow work-more" data-cursor>More on GitHub <span>&rarr;</span></a>
+        </section>
+
+        <!-- ===== SKILLS ===== -->
+        <section class="skills" id="skills">
+            <div class="section-head">
+                <span class="section-index mono" data-reveal>(04) — Capabilities</span>
+                <h2 class="section-title" data-reveal-lines>What I work with</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-col" data-reveal>
+                    <h3 class="skill-cat mono">Languages</h3>
+                    <ul><li>Python</li><li>Java</li><li>SQL</li><li>C++</li><li>JavaScript</li><li>C</li></ul>
+                </div>
+                <div class="skill-col" data-reveal>
+                    <h3 class="skill-cat mono">Frameworks</h3>
+                    <ul><li>Spring Boot</li><li>React</li><li>Node.js</li></ul>
+                </div>
+                <div class="skill-col" data-reveal>
+                    <h3 class="skill-cat mono">Data &amp; ML</h3>
+                    <ul><li>Pandas</li><li>NumPy</li><li>scikit-learn</li><li>Matplotlib</li><li>Tableau</li></ul>
+                </div>
+                <div class="skill-col" data-reveal>
+                    <h3 class="skill-cat mono">Tools &amp; DevOps</h3>
+                    <ul><li>Git &amp; GitHub</li><li>Docker</li><li>MySQL</li><li>PostgreSQL</li><li>Maven</li></ul>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Achievements Section -->
-    <section id="achievements" class="reveal">
-        <h2 class="section-title">Achievements</h2>
-        <div class="achievements-grid">
-            <div class="achievement-card">
-                <div class="achievement-badge">🏆 National Level</div>
-                <h3 class="achievement-title">Top 100 - SIH Hackathon</h3>
-                <p class="achievement-description">
-                    Secured position in Top 100 teams at Smart India Hackathon, India's largest hackathon. 
-                    Competed against thousands of teams nationwide, demonstrating exceptional problem-solving and innovation skills.
-                </p>
+        <!-- ===== EXPERIENCE & RECOGNITION ===== -->
+        <section class="recognition" id="recognition">
+            <div class="section-head">
+                <span class="section-index mono" data-reveal>(05) — Recognition</span>
+                <h2 class="section-title" data-reveal-lines>Where I've shown up</h2>
             </div>
+            <ul class="rec-list">
+                <li class="rec-row" data-reveal>
+                    <span class="rec-year mono">2024</span>
+                    <span class="rec-title">Top 100 — Smart India Hackathon</span>
+                    <span class="rec-note">India's largest hackathon, thousands of teams</span>
+                </li>
+                <li class="rec-row" data-reveal>
+                    <span class="rec-year mono">2024</span>
+                    <span class="rec-title">Runner-Up — National Hackathon</span>
+                    <span class="rec-note">2nd place, full solution under time pressure</span>
+                </li>
+                <li class="rec-row" data-reveal>
+                    <span class="rec-year mono">2023</span>
+                    <span class="rec-title">Top 50 — Web-e-stan Hackathon</span>
+                    <span class="rec-note">Modern web app, ranked in top 50</span>
+                </li>
+            </ul>
+        </section>
 
-            <div class="achievement-card">
-                <div class="achievement-badge">🥈 2nd Position</div>
-                <h3 class="achievement-title">Runner-Up at Hackathon</h3>
-                <p class="achievement-description">
-                    Achieved 2nd position in a competitive hackathon, showcasing strong technical skills and teamwork. 
-                    Developed an innovative solution under time constraints, impressing judges with creativity and execution.
-                </p>
+        <!-- ===== CERTIFICATIONS ===== -->
+        <section class="certifications" id="certifications">
+            <div class="section-head">
+                <span class="section-index mono" data-reveal>(06) — Certifications</span>
+                <h2 class="section-title" data-reveal-lines>Certified &amp; verified</h2>
             </div>
-
-            <div class="achievement-card">
-                <div class="achievement-badge">🌟 Top 50</div>
-                <h3 class="achievement-title">Web-e-stan Hackathon</h3>
-                <p class="achievement-description">
-                    Ranked among Top 50 participants in Web-e-stan Hackathon. Built a cutting-edge web application 
-                    demonstrating expertise in modern web technologies and innovative problem-solving approaches.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Certifications Section -->
-    <section id="certifications" class="reveal">
-        <h2 class="section-title">Certifications</h2>
-        <div class="cert-grid">
-            <div class="cert-card">
-                <h4>Privacy & Security in Online Social Media</h4>
-                <p>NPTEL (IIIT Hyderabad & IIT Madras, SWAYAM)</p>
-            </div>
-            <div class="cert-card">
-                <h4>Java Full Stack Developer</h4>
-                <p>CodeForSuccess</p>
-            </div>
-            <div class="cert-card">
-                <h4>Data Structures & Algorithms</h4>
-                <p>NeoColab, Lovely Professional University</p>
-            </div>
-            <div class="cert-card">
-                <h4>Introduction to Hardware & Operating Systems</h4>
-                <p>IBM (Coursera)</p>
-            </div>
-            <div class="cert-card">
-                <h4>Stress Management With Time Management</h4>
-                <p>Udemy</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Education Section -->
-    <section id="education" class="reveal">
-        <h2 class="section-title">Education</h2>
-        <div class="education-container">
-            <div class="education-item">
-                <div class="education-content">
-                    <h3>B.Tech in Computer Science</h3>
-                    <p class="institution">Lovely Professional University</p>
-                    <p class="date">Aug 2023 – Present | Jalandhar, Punjab</p>
-                    <span class="grade">CGPA: 9.2/10</span>
+            <div class="cert-list">
+                <a class="cert-row" href="https://achieve.snowflake.com/2a72b36b-4213-41be-878b-aa6e4f45908e#acc.neAij5dr" target="_blank" rel="noopener noreferrer" data-cursor="Verify" data-reveal>
+                    <span class="cert-issuer mono">Snowflake</span>
+                    <span class="cert-name">SnowPro Core Certification</span>
+                    <span class="cert-note mono">COF-C02</span>
+                    <span class="cert-arrow">&nearr;</span>
+                </a>
+                <div class="cert-row cert-row--static" data-reveal>
+                    <span class="cert-issuer mono">Snowflake</span>
+                    <span class="cert-name">SnowPro Specialty — Generative AI</span>
+                    <span class="cert-note mono">Gen AI</span>
+                    <span class="cert-arrow"></span>
                 </div>
-                <div class="education-dot"></div>
+                <a class="cert-row" href="https://learn.microsoft.com/en-us/users/mayankgupta-5876/credentials/CE5FC3ED8D310CFD" target="_blank" rel="noopener noreferrer" data-cursor="Verify" data-reveal>
+                    <span class="cert-issuer mono">Microsoft</span>
+                    <span class="cert-name">Azure Fundamentals</span>
+                    <span class="cert-note mono">AZ-900</span>
+                    <span class="cert-arrow">&nearr;</span>
+                </a>
             </div>
+        </section>
 
-            <div class="education-item">
-                <div class="education-content">
-                    <h3>Class 12 (Science)</h3>
-                    <p class="institution">Bal Bharti Vidya Peeth School</p>
-                    <p class="date">Mar 2022 – May 2023 | Gohana, Sonipat</p>
-                    <span class="grade">90%</span>
-                </div>
-                <div class="education-dot"></div>
+        <!-- ===== EDUCATION ===== -->
+        <section class="education" id="education">
+            <div class="section-head">
+                <span class="section-index mono" data-reveal>(07) — Education</span>
+                <h2 class="section-title" data-reveal-lines>Foundations</h2>
             </div>
-        </div>
-    </section>
+            <ul class="edu-list">
+                <li class="edu-row" data-reveal>
+                    <div class="edu-main">
+                        <h3>B.Tech, Computer Science</h3>
+                        <p class="mono">Lovely Professional University · Jalandhar</p>
+                    </div>
+                    <span class="edu-meta mono">2023 — Present · CGPA 9.2</span>
+                </li>
+                <li class="edu-row" data-reveal>
+                    <div class="edu-main">
+                        <h3>Class 12 — Science</h3>
+                        <p class="mono">Bal Bharti Vidya Peeth · Gohana</p>
+                    </div>
+                    <span class="edu-meta mono">2022 — 2023 · 90%</span>
+                </li>
+            </ul>
+        </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section">
-        <div class="contact-header reveal">
-            <h2 class="section-title">Contact Me</h2>
-            <p class="section-subtitle">Have a project in mind? Let's build something amazing together!</p>
-        </div>
-        <div class="contact-container reveal">
-            <!-- Left Side: Contact Info -->
-            <div class="contact-info">
-                <h3 class="info-title">Let's Connect</h3>
-                <p class="info-desc">
-                    I'm constantly looking for new opportunities and challenges. 
-                    Whether you have a question or just want to say hi, feel free to drop a message!
-                </p>
-                <div class="contact-details">
-                    <div class="detail-item copy-email" onclick="copyEmail()" title="Click to copy email">
-                        <i class="fas fa-envelope"></i>
-                        <span>mayankgupta23081@gmail.com</span>
-                        <i class="fas fa-copy copy-icon"></i>
-                    </div>
-                    <div class="detail-item">
-                        <i class="fas fa-phone-alt"></i>
-                        <span>+91 90348 81439</span>
-                    </div>
-                    <div class="detail-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <span>India</span>
-                    </div>
-                </div>
-                <!-- Clickable Social Icons -->
-                <div class="social-connect">
-                    <a href="https://linkedin.com/in/mayank-g22" target="_blank" rel="noopener noreferrer" class="social-btn" title="LinkedIn" aria-label="LinkedIn Profile">
-                        <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+        <!-- ===== CONTACT ===== -->
+        <section class="contact" id="contact">
+            <span class="section-index mono" data-reveal>(08) — Contact</span>
+            <h2 class="contact-cta" data-reveal-lines>Let's build<br>something good.</h2>
+
+            <div class="contact-body">
+                <div class="contact-left">
+                    <a href="mailto:mayankgupta23081@gmail.com" class="contact-email" id="contactEmail" data-cursor="Copy">
+                        mayankgupta23081@gmail.com
                     </a>
-                    <a href="https://github.com/mayank2295" target="_blank" rel="noopener noreferrer" class="social-btn" title="GitHub" aria-label="GitHub Profile">
-                        <i class="fab fa-github" aria-hidden="true"></i>
-                    </a>
-                    <a href="mailto:mayankgupta23081@gmail.com" class="social-btn" title="Email" aria-label="Email me">
-                        <i class="fas fa-envelope" aria-hidden="true"></i>
-                    </a>
+                    <div class="contact-links">
+                        <a href="https://linkedin.com/in/mayank-g22" target="_blank" rel="noopener noreferrer" data-cursor>LinkedIn <span>&nearr;</span></a>
+                        <a href="https://github.com/mayank2295" target="_blank" rel="noopener noreferrer" data-cursor>GitHub <span>&nearr;</span></a>
+                        <a href="tel:+919034881439" data-cursor>+91 90348 81439</a>
+                    </div>
                 </div>
-            </div>
 
-            <!-- Right Side: Form -->
-            <div class="contact-form-wrapper">
-                <h3 class="info-title">Get In Touch</h3>
                 <form id="contactForm" action="https://formspree.io/f/mzdroqgn" method="POST" class="contact-form">
-                    <div class="form-group">
-                        <label>Name</label>
-                        <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                    <div class="field">
+                        <input type="text" name="name" id="cName" class="form-control" placeholder=" " required>
+                        <label for="cName" class="mono">Name</label>
                     </div>
-                    <div class="form-group">
-                        <label>Email</label>
-                        <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+                    <div class="field">
+                        <input type="email" name="email" id="cEmail" class="form-control" placeholder=" " required>
+                        <label for="cEmail" class="mono">Email</label>
                     </div>
-                    <div class="form-group">
-                        <label>Message</label>
-                        <textarea name="message" class="form-control" placeholder="Your Message" required></textarea>
+                    <div class="field">
+                        <textarea name="message" id="cMsg" class="form-control" placeholder=" " rows="3" required></textarea>
+                        <label for="cMsg" class="mono">Message</label>
                     </div>
-                    <button type="submit" class="submit-btn" id="submitBtn">Send Message <i class="fas fa-paper-plane"></i></button>
-                    <div id="formMessage"></div>
+                    <button type="submit" class="submit-btn" id="submitBtn" data-cursor>
+                        <span>Send message</span>
+                        <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                    </button>
+                    <p id="formMessage" class="form-message" role="status"></p>
                 </form>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <!-- Footer -->
-    <footer>
-        <div class="footer-content">
-            <div class="footer-main">
-                <div class="footer-left">
-                    <h3>Let's Build Something<br>Amazing Together</h3>
-                    <p class="footer-tagline">Available for freelance projects, collaborations, and full-time opportunities. Let's turn ideas into reality.</p>
-                    <div class="footer-social">
-                        <a href="mailto:mayankgupta23081@gmail.com" class="footer-social-link" title="Email" aria-label="Email me">
-                            <i class="fas fa-envelope" aria-hidden="true"></i>
-                        </a>
-                        <a href="https://linkedin.com/in/mayank-g22" target="_blank" rel="noopener noreferrer" class="footer-social-link" title="LinkedIn" aria-label="LinkedIn Profile">
-                            <i class="fab fa-linkedin-in" aria-hidden="true"></i>
-                        </a>
-                        <a href="https://github.com/mayank2295" target="_blank" rel="noopener noreferrer" class="footer-social-link" title="GitHub" aria-label="GitHub Profile">
-                            <i class="fab fa-github" aria-hidden="true"></i>
-                        </a>
-                        <a href="tel:+919034881439" class="footer-social-link" title="Phone" aria-label="Call me">
-                            <i class="fas fa-phone-alt" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="footer-right">
-                    <div class="footer-nav-title">Quick Links</div>
-                    <div class="footer-links">
-                        <a href="#home"><i class="fas fa-chevron-right"></i> Home</a>
-                        <a href="#skills"><i class="fas fa-chevron-right"></i> Skills</a>
-                        <a href="#experience"><i class="fas fa-chevron-right"></i> Experience</a>
-                        <a href="#projects"><i class="fas fa-chevron-right"></i> Projects</a>
-                        <a href="#achievements"><i class="fas fa-chevron-right"></i> Achievements</a>
-                        <a href="#education"><i class="fas fa-chevron-right"></i> Education</a>
-                    </div>
-                    <a href="#contact" class="footer-cta">
-                        <i class="fas fa-paper-plane"></i> Start a Conversation
-                    </a>
-                </div>
-            </div>
-            <div class="footer-divider"></div>
-            <div class="footer-bottom">
-                <p class="copyright">&copy; <span id="currentYear"></span> Mayank Gupta. Crafted with <i class="fas fa-heart"></i> and code.</p>
-                <p class="footer-credit">Designed & Built by <a href="#home">Mayank Gupta</a></p>
-            </div>
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="footer-top">
+            <span class="mono">Mayank Gupta © <span id="year"></span></span>
+            <span class="mono">Designed &amp; built in India</span>
         </div>
+        <a href="#home" class="footer-back mono" data-cursor>Back to top &uarr;</a>
     </footer>
 
-    <!-- External JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
-    
-    <!-- JS Modules -->
-    <script src="js/modules/theme.js"></script>
-    <script src="js/modules/cursor.js"></script>
-    <script src="js/modules/particles-config.js"></script>
-    <script src="js/modules/typing.js"></script>
-    <script src="js/modules/navigation.js"></script>
-    <script src="js/modules/scroll.js"></script>
-    <script src="js/modules/animations.js"></script>
-    <script src="js/modules/form.js"></script>
-    <script src="js/modules/utils.js"></script>
+    <!-- Copy toast -->
+    <div class="toast" id="toast">
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 12.5l5 5L20 6.5"/></svg>
+        <span>Email copied</span>
+    </div>
+
+    <!-- Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js"></script>
+
+    <!-- App -->
+    <script src="js/theme.js"></script>
+    <script src="js/cursor.js"></script>
+    <script src="js/form.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
