@@ -277,8 +277,11 @@ section { padding: clamp(4rem, 9vh, 8rem) var(--pad); max-width: var(--maxw); ma
     display: inline-flex; align-items: center; gap: 0.5rem; border-bottom: 1px solid var(--line);
     padding-bottom: 0.3rem; transition: gap 0.4s var(--ease), border-color 0.4s, color 0.4s;
 }
-.link-arrow span { transition: transform 0.4s var(--ease); }
+.link-arrow span { transition: transform 0.4s var(--ease); display: inline-flex; }
 .link-arrow:hover { gap: 0.9rem; border-color: var(--accent); color: var(--accent); }
+
+/* Inline SVG icon — scales with text, consistent stroke weight */
+.ico { width: 1em; height: 1em; display: inline-block; vertical-align: -0.12em; flex: 0 0 auto; }
 
 /* ---------- HERO ---------- */
 .hero {
@@ -481,7 +484,7 @@ section { padding: clamp(4rem, 9vh, 8rem) var(--pad); max-width: var(--maxw); ma
 .contact-email:hover { color: var(--accent); border-color: var(--accent); }
 .contact-links { display: flex; flex-direction: column; gap: 0.9rem; }
 .contact-links a { font-family: var(--mono); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.03em;
-                   width: fit-content; display: inline-flex; gap: 0.4rem; transition: color 0.3s; }
+                   width: fit-content; display: inline-flex; align-items: center; gap: 0.4rem; transition: color 0.3s; }
 .contact-links a:hover { color: var(--accent); }
 
 /* Form */
@@ -516,8 +519,9 @@ section { padding: clamp(4rem, 9vh, 8rem) var(--pad); max-width: var(--maxw); ma
 .footer { padding: clamp(3rem, 7vw, 5rem) var(--pad); max-width: var(--maxw); margin: 0 auto;
           border-top: 1px solid var(--line); display: flex; flex-direction: column; gap: 2.5rem; }
 .footer-top { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem; }
-.footer-back { width: fit-content; transition: color 0.3s; }
+.footer-back { width: fit-content; display: inline-flex; align-items: center; gap: 0.4rem; transition: color 0.3s; }
 .footer-back:hover { color: var(--accent); }
+.footer-back:hover .ico { transform: translateY(-3px); transition: transform 0.4s var(--ease); }
 
 /* ---------- TOAST ---------- */
 .toast {
